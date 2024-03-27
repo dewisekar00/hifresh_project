@@ -1,0 +1,3 @@
+> fitur : menampilkan detail product didalam modal
+     waktu di klik productnya , ambil id nya
+     lalu cek di dataproduct id nya dan ambil datanya lalu tampilkan di modal
