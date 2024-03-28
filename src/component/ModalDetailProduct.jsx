@@ -1,8 +1,13 @@
 import React from "react";
 import Button from "./Button";
-import getDetailProduct from "../services/getDataProduct";
+import getDetailProduct, {
+  addProductToCarts,
+} from "../services/getDataProduct";
 
 const Modal = ({ handleClose, show, id }) => {
+  const handleAddToCart = (id) => {
+    addProductToCarts(id);
+  };
   const detailProduct = getDetailProduct(id);
   const showHideClassName = show
     ? "fixed inset-0 flex items-center justify-center"
@@ -29,9 +34,13 @@ const Modal = ({ handleClose, show, id }) => {
           </svg>
         </button>
         <div>
-         <div className="h-48 ">
-         <img src={detailProduct.image} alt={detailProduct.ProductName} className="object-cover h-full w-full" />
-         </div>
+          <div className="h-48 ">
+            <img
+              src={detailProduct.image}
+              alt={detailProduct.ProductName}
+              className="object-cover h-full w-full"
+            />
+          </div>
           <div className="flex flex-col gap-4 my-4 bg-slate-100 p-4">
             <p className="font-semibold text-xl">{detailProduct.ProductName}</p>
             <div className="flex justify-between">
@@ -40,7 +49,10 @@ const Modal = ({ handleClose, show, id }) => {
             </div>
             <p className="text-slate-500">{detailProduct.description}</p>
           </div>
-          <div className="text-end">
+          <div
+            className="text-end"
+            onClick={() => handleAddToCart(detailProduct.id)}
+          >
             <Button text="add to cart" />
           </div>
         </div>

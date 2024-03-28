@@ -24,6 +24,17 @@ const getDetailProduct = (id) => {
   return dataProducts.find((product) => product.id === id);
 };
 
+const productCarts = [];
+
+const addProductToCarts = (id) => {
+  const productToAdd = dataProducts.find((product) => product.id === id);
+  productCarts.push(productToAdd);
+  return productCarts;
+};
+
+// console.log('product cart:' , productCarts);
+
 export default getDetailProduct;
 export const dataSayuran = getDataSayuran(dataProducts);
 export const dataBuah = getDataBuah(dataProducts);
+export { addProductToCarts, productCarts };
