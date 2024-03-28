@@ -1,4 +1,4 @@
-**Tentang Proyek **:
+Tentang project :
 
 Proyek ini bertujuan untuk mendukung Usaha Mikro, Kecil, dan Menengah (UMKM) di sektor pertanian dengan menyediakan platform untuk memasarkan buah dan sayuran dari petani lokal.
 
