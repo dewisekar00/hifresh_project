@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Modal from "./Modal";
+import Modal from "./ModalDetailProduct";
 import getDetailProduct from "../services/getDataProduct";
 
 const ProductCard = (props) => {

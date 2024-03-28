@@ -1,3 +1,11 @@
 > fitur : menampilkan detail product didalam modal
      waktu di klik productnya , ambil id nya
      lalu cek di dataproduct id nya dan ambil datanya lalu tampilkan di modal
+> fitur : add product to cart
+- ketika button add to cart di klik maka akan mengirim id ke funct cart
+jadinya nanti didalam function cart ada data dari button tadi
+nantinya data cart itu akan ditampilkan di modal cart
+
+ <div className="text-end"onClick={() => handleAddToCart(detailProduct.id)}>
+> tambahkan arrow func didalam onClick agar data yang dimasukan tidak doble, karena handleAddToCart hanya akan dijalankan ketika tombol di klik , bukan saat komponen dirender
+> penyebab data di keranjang muncul 2 kali karena func dipanggil 2 kali

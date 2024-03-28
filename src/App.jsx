@@ -9,7 +9,7 @@ function App() {
     <>
       <div className="m-4 lg:m-8">
         <Navbar />
-        <div className=" pt-16 px-2 ">
+        <div className=" pt-8 lg:pt-16 px-2 ">
           <Header />
         </div>
       </div>

@@ -6,7 +6,7 @@ const ValueSection = () => {
       <div className="h-screen mt-32 p-8 lg:flex gap-8">
         <img
           src="https://images.pexels.com/photos/4393436/pexels-photo-4393436.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          alt="vegetables"
+          alt="delivery"
           className="w-full h-64 object-cover rounded-xl mb-4 lg:h-80"
         />
         <div className="border border-green-500 rounded-xl p-4 lg:h-80 lg:w-[800px] flex flex-col items-center justify-center">
