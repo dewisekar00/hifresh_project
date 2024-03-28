@@ -1,16 +1,16 @@
 Tentang project :
 
-Proyek ini bertujuan untuk mendukung Usaha Mikro, Kecil, dan Menengah (UMKM) di sektor pertanian dengan menyediakan platform untuk memasarkan buah dan sayuran dari petani lokal.
+Proyek ini bertujuan untuk mendukung (UMKM) di sektor pertanian dengan menyediakan platform untuk memasarkan buah dan sayuran dari petani lokal.
 
 ### Fitur:
-1. **Filter Berdasarkan Kategori:** Pengguna dapat menyaring produk berdasarkan kategori tertentu.
+1. **Filter Berdasarkan Kategori:** Pengguna dapat melihat produk berdasarkan kategori tertentu.
 2. **Detail Produk:** Pengguna dapat melihat informasi detail tentang suatu produk dengan mengklik produk yang diinginkan.
-3. **Keranjang Belanja:** Pengguna dapat menambahkan produk ke keranjang belanja dengan mengklik "Tambah ke Keranjang" pada modal detail produk.
+3. **Keranjang Belanja:** Pengguna dapat menambahkan produk ke keranjang belanja dengan mengklik "add to cart" pada modal detail produk.
 
 ### Teknologi yang Digunakan:
 - React JS
 - Tailwind CSS
-- Mock API: Berisi data dummy produk untuk ditampilkan di kartu produk.
+- Mock API: Berisi data dummy produk untuk ditampilkan di productCard
 
 
 
